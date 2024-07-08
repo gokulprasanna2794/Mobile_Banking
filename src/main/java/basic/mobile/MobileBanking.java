@@ -9,5 +9,6 @@ public class MobileBanking {
 
         GPay gPay = new GPay("12345678", "Gokul", "4321", "Gokul");
         gPay.payBills("Prasanna", 1500.00, "Utility", "4321");
+        System.out.println("Balance Illa p");
     }
 }
